@@ -6,7 +6,7 @@ function CartModal() {
   const { cart, total, clear, toggle } = useValue();
   return (
     <div className={styles.CartModal}>
-      <div className={styles.closeButton} onClick={toggle}>
+      <div className={styles.closeButton} onClick={toggl}>
         Close
       </div>
       <div className={styles.clearButton} onClick={clear}>
